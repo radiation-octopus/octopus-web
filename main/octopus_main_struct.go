@@ -1,7 +1,7 @@
 package main
 
 import (
-	"octopus/log"
+	"github.com/radiation-octopus/octopus/log"
 )
 
 type MainService struct {

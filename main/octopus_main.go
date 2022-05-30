@@ -1,15 +1,14 @@
 package main
 
 import (
-	_ "octopus/api"
-	_ "octopus/blockchain"
-	"octopus/core"
-	_ "octopus/db"
-	"octopus/director"
-	"octopus/log"
-	_ "octopus/log"
-	_ "octopus/tcp"
-	_ "octopus/udp"
+	_ "github.com/radiation-octopus/octopus/api"
+	"github.com/radiation-octopus/octopus/core"
+	_ "github.com/radiation-octopus/octopus/db"
+	"github.com/radiation-octopus/octopus/director"
+	"github.com/radiation-octopus/octopus/log"
+	_ "github.com/radiation-octopus/octopus/log"
+	_ "github.com/radiation-octopus/octopus/tcp"
+	_ "github.com/radiation-octopus/octopus/udp"
 )
 
 func init() {

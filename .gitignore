@@ -28,7 +28,7 @@ data
 data/*
 
 ###go sum
-go.sum
+#go.sum
 #*.log
 # Dependency directories (remove the comment below to include it)
 # vendor/
